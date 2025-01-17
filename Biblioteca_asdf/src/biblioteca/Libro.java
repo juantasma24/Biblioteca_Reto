@@ -1,8 +1,5 @@
 package biblioteca;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class Libro {
      String titulo;
     String autor;
@@ -18,7 +15,8 @@ public class Libro {
         this.id = id;
         this.anioPublicacion = anioPublicacion;
         this.copiasDisponibles = copiasDisponibles;
-        this.reservas = new LinkedList<>();
+        this.reservas = new String[10];
+        this.numReservas = 0;
     }
 
     // Añade un usuario a la lista de reservas del libro
