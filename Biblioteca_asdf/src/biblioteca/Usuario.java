@@ -1,35 +1,58 @@
 package biblioteca;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Usuario
 {
-    String nombre; // Nombre del usuario
-    String id; // Identificador único del usuario
-    String rol; // Rol del usuario (estudiante, profesor, invitado)
-    List<String> librosPrestados; // Lista de IDs de libros que el usuario tiene prestados
+    String nombre;
+    String id;
+    String rol;
+    String[] librosPrestados;
+    int numLibrosPrestados;
 
     Usuario(String nombre, String id, String rol)
     {
         this.nombre = nombre;
         this.id = id;
         this.rol = rol;
-        this.librosPrestados = new ArrayList<>();
+        this.librosPrestados = new String[5];
+        this.numLibrosPrestados = 0;
+    }
+boolean puedePrestar()
+    {
+        int maxPrestamos = rol.equalsIgnoreCase("estudiante") ? 3 :
+                           rol.equalsIgnoreCase("profesor") ? 5 :
+                           rol.equalsIgnoreCase("invitado") ? 1 : 0;
+        return numLibrosPrestados < maxPrestamos;
     }
 
-    // Verifica si el usuario puede realizar más préstamos basado en su rol
-    boolean puedePrestar()
+    void agregarPrestamo(String libroId)
     {
-        int maxPrestamos = switch (rol.toLowerCase())
+        if (numLibrosPrestados < librosPrestados.length)
         {
-            case "estudiante" -> 3;
-            case "profesor" -> 5;
-            case "invitado" -> 1;
-            default -> 0;
-        };
-        return librosPrestados.size() < maxPrestamos;
+            librosPrestados[numLibrosPrestados++] = libroId;
+        }
+    }
+
+    void devolverPrestamo(String libroId)
+    {
+        for (int i = 0; i < numLibrosPrestados; i++)
+        {
+            if (librosPrestados[i].equals(libroId))
+            {
+                librosPrestados[i] = librosPrestados[--numLibrosPrestados];
+                librosPrestados[numLibrosPrestados] = null;
+                break;
+            }
+        }
+    }
+static Usuario buscarPorId(Usuario[] usuarios, String id)
+    {
+        for (Usuario usuario : usuarios)
+        {
+            if (usuario != null && usuario.id.equals(id))
+            {
+                return usuario;
+            }
+        }
+        return null;
     }
 }
-//Prueba de commit -JuanDiego
-//Se implementó el constructor Nomnre,Id y Rol
