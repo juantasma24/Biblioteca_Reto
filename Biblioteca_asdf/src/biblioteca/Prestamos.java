@@ -8,5 +8,15 @@ public class Prestamo {
     String usuarioId; // identificador del usuario que coge prestado el libro
     Date fechaPrestamo; //fecha cuando se realiza el prestamo
     Date fechaDevolucion; // fecha de su devolucion, hasta que no lo devuelva devolvera null.
+    
+ Prestamo(String idPrestamo, String libroId, String usuarioId) {
+        this.idPrestamo = idPrestamo;
+        this.libroId = libroId;
+        this.usuarioId = usuarioId;
+        this.fechaPrestamo = new Date();
+        this.fechaDevolucion = null;
+
+    } 
+
 
 
