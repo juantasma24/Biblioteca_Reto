@@ -26,6 +26,16 @@ public class Biblioteca
         this.numPrestamos = 0;
         this.numReservas = 0;
     }
+
+  //Metodos
+  public void registrarUsuario(String nombre, String id, String rol) 
+  {
+        if (numUsuarios < usuarios.length) 
+        {
+            usuarios[numUsuarios++] = new Usuario(nombre, id, rol);
+            System.out.println("Usuario registrado con éxito.");
+        }
+   }
   
 }
 
