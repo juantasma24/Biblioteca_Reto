@@ -18,12 +18,16 @@ public class Libro {
         this.reservas = new String[10];
         this.numReservas = 0;
     }
-
-    // Añade un usuario a la lista de reservas del libro
-    void registrarReserva(String usuarioId) {
-        reservas.add(usuarioId);
-    }
-
+    
+    public void reservasAdd(String usuarioId) {
+		for (int i = 0; i < reservas.length; i++) {
+			if (reservas[i] == null ) 
+			{
+				reservas[i] = usuarioId;
+				 break;
+			}
+		}
+	}
     // Libera la primera reserva en la cola
     void liberarReserva() {
         reservas.poll();
