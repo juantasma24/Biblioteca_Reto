@@ -18,7 +18,12 @@ public class Libro {
         this.reservas = new String[10]; 
         this.numReservas = 0;
     }
+void registrarReserva(String usuarioId) {
+        if (numReservas < reservas.length) {
+            reservas[numReservas++] = usuarioId;
+        }
 
+    }
 
 
 
