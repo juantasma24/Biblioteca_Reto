@@ -31,4 +31,5 @@ public class Usuario
         return librosPrestados.size() < maxPrestamos;
     }
 }
-//Prueba de commit -JuanDiego-
+//Prueba de commit -JuanDiego
+//Se implementó el constructor Nomnre,Id y Rol
