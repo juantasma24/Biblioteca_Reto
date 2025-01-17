@@ -33,7 +33,17 @@ String liberarReserva() {
         }
         return null;
     }
+  
+ static Libro buscarPorId(Libro[] libros, String id) {
+        for (Libro libro : libros) {
+            if (libro != null && libro.id.equals(id)) {
+                return libro;
+            }
+        }
+        return null;
+    }
 
+}
 
   
 }
