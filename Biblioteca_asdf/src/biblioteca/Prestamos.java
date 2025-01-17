@@ -23,3 +23,7 @@ public class Prestamos {
     }
 }
 // creamos una clase para prestamos y le ponemos un id unico para prestamo asi como si fuera un DNI
+// Le ponemos stringa las clases, date para fecha y fecha devo.
+// la fecha de prestamo es  la hora de cuando se realiza el prestamo.
+// la fecha de devolucion se creara en el momento de su devolucion.
+//algunos campos se mantendran null mientras no se haya generado una devolucion.
