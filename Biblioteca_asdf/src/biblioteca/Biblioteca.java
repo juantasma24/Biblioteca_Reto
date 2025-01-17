@@ -69,14 +69,14 @@ public class Biblioteca {
             Usuario usuario = buscarUsuarioPorId(usuarioId);
             usuario.librosPrestados.remove(libroId);
             System.out.println("Devolución realizada con éxito.");
-            if (!libro.reservas.isEmpty()) {
-                System.out.println("El libro tiene reservas. Notificando al próximo usuario.");
-                libro.liberarReserva();
-            }
-        } else {
-            System.out.println("No se encontró el préstamo.");
-        }
-    }
+ //           if (!libro.reservas.isEmpty()) {
+//                System.out.println("El libro tiene reservas. Notificando al próximo usuario.");
+//                libro.liberarReserva();
+ //           }
+ //       } else {
+ //           System.out.println("No se encontró el préstamo.");
+       }
+   }
 
     // Búsqueda de usuario por ID
     private Usuario buscarUsuarioPorId(String id) {
