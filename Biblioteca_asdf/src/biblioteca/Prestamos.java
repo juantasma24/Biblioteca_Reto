@@ -8,3 +8,5 @@ public class Prestamo {
     String usuarioId;
     Date fechaPrestamo;
     Date fechaDevolucion;
+
+
