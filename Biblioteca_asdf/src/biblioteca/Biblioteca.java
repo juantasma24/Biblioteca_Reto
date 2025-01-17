@@ -45,6 +45,14 @@ public class Biblioteca
             System.out.println(usuarios[i].nombre + " (" + usuarios[i].rol + ")");
         }
    }
-  
+
+  public void registrarLibro(String titulo, String autor, String id, int anioPublicacion, int copiasDisponibles) 
+  {
+        if (numLibros < libros.length) 
+        {
+            libros[numLibros++] = new Libro(titulo, autor, id, anioPublicacion, copiasDisponibles);
+            System.out.println("Libro registrado con éxito.");
+        }
+    }
 }
 
