@@ -22,4 +22,4 @@ public class Prestamos {
         this.fechaDevolucion = new Date();
     }
 }
-
+// creamos una clase para prestamos y le ponemos un id unico para prestamo asi como si fuera un DNI
