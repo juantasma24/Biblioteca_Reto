@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Biblioteca 
 {
   //Atributos
-	Usuario[] usuarios;
+  Usuario[] usuarios;
   Libro[] libros;
   Prestamo[] prestamos;
   Reserva[] reservas;
