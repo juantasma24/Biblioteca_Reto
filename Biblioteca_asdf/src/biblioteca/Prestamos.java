@@ -17,6 +17,11 @@ public class Prestamo {
         this.fechaDevolucion = null;
 
     } 
+  void marcarDevolucion() {
+
+        this.fechaDevolucion = new Date(); // aqui marcara cuando ha sido la fecha de devolucion.
+    }
+}
 
 
 
