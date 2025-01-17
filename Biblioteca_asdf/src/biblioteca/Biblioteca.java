@@ -36,6 +36,15 @@ public class Biblioteca
             System.out.println("Usuario registrado con éxito.");
         }
    }
+
+   public void listarUsuarios() 
+  {
+        System.out.println("Usuarios registrados:");
+        for (int i = 0; i < numUsuarios; i++) 
+        {
+            System.out.println(usuarios[i].nombre + " (" + usuarios[i].rol + ")");
+        }
+   }
   
 }
 
