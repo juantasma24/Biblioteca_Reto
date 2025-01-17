@@ -4,12 +4,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Libro {
-    String titulo; // Título del libro
-    String autor; // Autor del libro
-    String id; // Identificador único del libro
-    int anioPublicacion; // Año de publicación del libro
-    int copiasDisponibles; // Número de copias disponibles del libro
-    Queue<String> reservas; // Cola de reservas para el libro
+     String titulo;
+    String autor;
+    String id;
+    int anioPublicacion;
+    int copiasDisponibles;
+    String[] reservas;
+    int numReservas;
 
     Libro(String titulo, String autor, String id, int anioPublicacion, int copiasDisponibles) {
         this.titulo = titulo;
