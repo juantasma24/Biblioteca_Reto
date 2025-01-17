@@ -44,4 +44,15 @@ boolean puedePrestar()
             }
         }
     }
-
+static Usuario buscarPorId(Usuario[] usuarios, String id)
+    {
+        for (Usuario usuario : usuarios)
+        {
+            if (usuario != null && usuario.id.equals(id))
+            {
+                return usuario;
+            }
+        }
+        return null;
+    }
+}
