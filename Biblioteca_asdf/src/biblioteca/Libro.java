@@ -30,6 +30,6 @@ public class Libro {
 	}
     // Libera la primera reserva en la cola
     void liberarReserva() {
-        reservas.poll();
+        
     }
 }
