@@ -24,7 +24,15 @@ void registrarReserva(String usuarioId) {
         }
 
     }
-
+String liberarReserva() {
+        if (numReservas > 0) {
+            String usuarioId = reservas[0];
+            System.arraycopy(reservas, 1, reservas, 0, --numReservas);
+            reservas[numReservas] = null;
+            return usuarioId;
+        }
+        return null;
+    }
 
 
   
