@@ -16,4 +16,32 @@ public class Usuario
         this.librosPrestados = new String[5];
         this.numLibrosPrestados = 0;
     }
+boolean puedePrestar()
+    {
+        int maxPrestamos = rol.equalsIgnoreCase("estudiante") ? 3 :
+                           rol.equalsIgnoreCase("profesor") ? 5 :
+                           rol.equalsIgnoreCase("invitado") ? 1 : 0;
+        return numLibrosPrestados < maxPrestamos;
+    }
+
+    void agregarPrestamo(String libroId)
+    {
+        if (numLibrosPrestados < librosPrestados.length)
+        {
+            librosPrestados[numLibrosPrestados++] = libroId;
+        }
+    }
+
+    void devolverPrestamo(String libroId)
+    {
+        for (int i = 0; i < numLibrosPrestados; i++)
+        {
+            if (librosPrestados[i].equals(libroId))
+            {
+                librosPrestados[i] = librosPrestados[--numLibrosPrestados];
+                librosPrestados[numLibrosPrestados] = null;
+                break;
+            }
+        }
+    }
 
