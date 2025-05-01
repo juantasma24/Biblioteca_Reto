@@ -1,0 +1,124 @@
+[33mcommit b2ebaf0f399e8e4518d565b5bb4b91358ac5bcb5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mLibro[m[33m, [m[1;31morigin/Libro[m[33m)[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 13:17:53 2025 +0100
+
+    Añadida la clase Libro.java-Eli
+
+[33mcommit 212ad9b72c6558fc9191649431cf16e538f2a4a9[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 12:50:35 2025 +0100
+
+    Elimine una clase que estaba duplicado-Eli
+
+[33mcommit eeb585480956c068c3ebc61349f9a71aae940469[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 11:54:56 2025 +0100
+
+    He puesto como comentario el 'if' y 'else' para hacer pruebas -Eli
+
+[33mcommit 416f188a1dca5f7814a2f245cee670fb78dec5e3[m
+Merge: 4d17cf0 08dc8a2
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 11:50:28 2025 +0100
+
+    Merge branch 'main' of https://github.com/juantasma24/Biblioteca_Reto.git into main
+
+[33mcommit 4d17cf010bf6748a1f7fc7bdf5ca1be6eed8a1ae[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 11:49:41 2025 +0100
+
+    Corrigiendo errores - Eli
+
+[33mcommit 694dc619fa50631e2e0db2e56b43208a7686413d[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 11:42:51 2025 +0100
+
+    He actualizado el metodo para añadir reservas - Eli
+
+[33mcommit 0cecdf1e03203b909636a36c16021b11d68edfc0[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 11:32:22 2025 +0100
+
+    He añadido la clase biblioteca que sera la clase principal - Eli
+
+[33mcommit 08dc8a2cb1999c1727ec5df87456801f9d034dfe[m
+Author: tonidaw <24dw.anthony.chimborazo@arangoya.net>
+Date:   Fri Jan 17 11:29:57 2025 +0100
+
+    comitt por toni
+
+[33mcommit b68571404cecddbc6c2d029332cf4cb85afd1971[m
+Author: juantasma24 <24dw.juan.chancafe@arangoya.net>
+Date:   Fri Jan 17 11:06:33 2025 +0100
+
+    Update Usuario -JuanDiego.java
+
+[33mcommit 9e910a3a219e25e8d5ab662428f05a6c4bc71f4f[m
+Author: tonidaw <24dw.anthony.chimborazo@arangoya.net>
+Date:   Fri Jan 17 10:22:24 2025 +0100
+
+    Update Prestamos.java
+    
+    toni
+
+[33mcommit c9a178f3a05c99d411c485dade14cdf07aba2ff4[m
+Author: alvarourien <24dw.alvaro.urien@arangoya.net>
+Date:   Fri Jan 17 10:18:54 2025 +0100
+
+    cambio del constructor
+
+[33mcommit 1d8a0990f017c2af71eb0c93fe8f10fd9e40f083[m
+Author: alvarourien <24dw.alvaro.urien@arangoya.net>
+Date:   Fri Jan 17 10:17:44 2025 +0100
+
+    cambiamos los atributos
+
+[33mcommit 3a33e17d3ec7577323ee202fa4740625cd837483[m
+Author: juantasma24 <24dw.juan.chancafe@arangoya.net>
+Date:   Fri Jan 17 10:16:51 2025 +0100
+
+    Update Usuario.java
+    
+    Prueba de commit - JuanDiego-
+
+[33mcommit 4cc70b21593935a71b1398ede1f1bd5f6c504b3e[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 04:08:07 2025 +0100
+
+    Añadí la clase Reserva-Eli
+
+[33mcommit 374297869df9808c4c46c545e6c77e4145d78b26[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Fri Jan 17 03:48:51 2025 +0100
+
+    Actualicé la clase Libro con nuevos cambios - Eli
+
+[33mcommit aeb39a8a4bccb27eaaebb62881c0b408b44c88d0[m
+Author: QuadziEli <24dw.celeste.rivarola@arangoya.net>
+Date:   Thu Jan 16 15:23:06 2025 +0100
+
+    Añadí la clase Prestamos al paquete Biblioteca
+
+[33mcommit 7be540427356c644860487f00a80490bcddd808b[m
+Author: Ikasle Arangoya <ikasle@arangoya.local>
+Date:   Thu Jan 16 13:15:23 2025 +0100
+
+    Nuevo archivo Libro -Alvaro
+
+[33mcommit 1bb4c80730c9f352e87e18082087ab5d68f9ccbb[m
+Author: Ikasle Arangoya <ikasle@arangoya.local>
+Date:   Thu Jan 16 13:05:44 2025 +0100
+
+    proyecto creado -Aritz
+
+[33mcommit 0e72a2b09eb616e6d39c6ae9fa42a068912f2528[m
+Author: Ikasle Arangoya <ikasle@arangoya.local>
+Date:   Thu Jan 16 12:40:25 2025 +0100
+
+    Principio proyecto -Aritz
+
+[33mcommit 72ed6de12fe42e84cce126aa68be12ca6fa8dffe[m
+Author: juantasma24 <24dw.juan.chancafe@arangoya.net>
+Date:   Thu Jan 16 12:25:17 2025 +0100
+
+    Initial commit
